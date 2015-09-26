@@ -89,7 +89,7 @@ AutoFish:
 		Gosub, AntiAFK
 
 		NatualPress("f", pid)	; Casting the line
-		Sleep, 15000	; Check for bite after 15 seconds.  Players must wait for 20-30 seconds for the lure to start splashing in order to reel in a fish. Reduce the pole checking loop.
+		Sleep, 5000	; Check for bite after 5 seconds.  Players must wait for 20-30 seconds for the lure to start splashing in order to reel in a fish. Reduce the pole checking loop.
 		FishingTimeCount := 0
 		
 		Loop {
